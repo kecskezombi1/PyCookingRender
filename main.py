@@ -11,7 +11,5 @@ class App(tk.Tk):
         label.pack()
         root.mainloop()
 
-
 app = App()
 app.mainloop()
-
