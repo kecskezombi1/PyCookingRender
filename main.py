@@ -9,7 +9,6 @@ class App(tk.Tk):
         root.title("Recept simulator")
         label = tk.Label(root, text="Üdvözöljünk a Recept simulatorban", font=("Arial", 15, "bold"))
         label.pack()
-        root.mainloop()
 
 app = App()
 app.mainloop()
